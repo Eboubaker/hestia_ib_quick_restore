@@ -1,7 +1,7 @@
 Docker image with small script to restore hestia incremental backup in case server failure.
 
 ### Preparing
-before the server had failed you should have backups of your configs and keys.
+before the server had failed you should have had backups of your configs and keys.
 1. [required] copy the restic file usually at `/usr/local/hestia/data/users/{your user}/restic.conf` to your private desktop/laptop it contains the secret key to decrypt the backup.
 2. copy the rclone config file usually at `/root/.config/rclone/rclone.conf`
 3. copy `/usr/local/hestia/conf/restic.conf`
